@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Distance Mechanics</title>
+    <link>https://seekr.pw/distance-mechanics/posts/</link>
+    <description>Recent content in Posts on Distance Mechanics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 31 Aug 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://seekr.pw/distance-mechanics/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Thruster Boost Advantage</title>
+      <link>https://seekr.pw/distance-mechanics/posts/thruster-boost-advantage/</link>
+      <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://seekr.pw/distance-mechanics/posts/thruster-boost-advantage/</guid>
+      <description>I&amp;rsquo;ve identified the two separate implementation details that cause Thruster-Boosting (TB) to be more powerful compared to Grip-Flying (GF). In short,
+ GF suffers a 2% penalty to rear booster power which TB does not. Thruster rampdown is generally slower with TB compared to GF. How much exactly depends on TB technique, though with optimal input can be around 50% slower.  Definitions  Thrusters: The four thrusters on top of the car.</description>
+    </item>
+    
+  </channel>
+</rss>

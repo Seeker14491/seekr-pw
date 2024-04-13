@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "gudearegular";
+  src: url("/gudea-regular-webfont.woff2") format("woff2"),
+    url("/gudea-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "gudearegular";
+  color: white;
+  background-color: #222;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: red;
+}
+
+.container {
+  margin: 10px;
+  padding: 5px;
+  width: fit-content;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.container h3 {
+  padding: 5px;
+  font-size: 30px;
+  width: fit-content;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.link-list {
+  padding: 20px;
+  list-style: none;
+}
+
+.link-list li {
+  padding-top: 20px;
+}
+
+.link-list a {
+  font-size: 200%;
+}
+
+#distance {
+  background-image: url("/distance-pointy.jpg");
+  background-size: cover;
+}
+
+#power-rankings {
+  text-align: center;
+}
+
+#power-rankings p {
+  margin: auto;
+  padding: 10px;
+}
+
+#power-rankings main {
+  padding: 10px;
+}
+
+#power-rankings header {
+  padding: 10px;
+  background: #333;
+}
+
+#power-rankings h2 {
+  margin-top: 40px;
+}
+
+#power-rankings li {
+  display: inline;
+  padding: 0 10px;
+}
+
+#misc h3 {
+  background: #222;
+}

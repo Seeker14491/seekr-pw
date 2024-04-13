@@ -1,0 +1,70 @@
+---
+import "../style.css";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Seekr's Webpage</title>
+  </head>
+  <body>
+    <div class="container" id="distance">
+      <h3>Distance</h3>
+
+      <ul class="link-list">
+        <li><a href="https://seekr.pw/distance-log/">World Record Log</a></li>
+        <li><a href="https://holdgrip.seekr.pw/">Hold Grip</a></li>
+        <li><a href="/distance-mechanics/">Mechanics</a></li>
+        <li>
+          <a href="https://distance-db-sql.seekr.pw/">Database Querier (SQL)</a>
+        </li>
+        <li>
+          <a
+            href="https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Fdistance-db-hasura.seekr.pw%2Fv1%2Fgraphql"
+            target="_blank">Database GraphQL API</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://paper.dropbox.com/doc/The-Ultimate-Distance-Controller-Binds-Guide--Axf8wdV8s5CcLZyWKCLXqn8bAQ-Hb2gkoDhwtN6AmEInJCh0"
+            target="_blank"
+          >
+            Controller Binds Guide
+          </a>
+        </li>
+        <li><a href="./distance-pr/">Power Rankings (archived)</a></li>
+      </ul>
+    </div>
+
+    <div class="container" id="misc">
+      <h3>Genshin Impact</h3>
+
+      <ul class="link-list">
+        <li><a href="https://genshin.seekr.pw/">Genshin Schedule</a></li>
+        <li>
+          <a href="https://genshin-substat-chart.vercel.app/"
+            >Genshin Substat Chart</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div class="container" id="misc">
+      <h3>Misc</h3>
+
+      <ul class="link-list">
+        <li><a href="https://ping-pong.seekr.pw/">Ping Pong Tracker</a></li>
+        <li>
+          <a href="https://neodash-hall-of-fame.seekr.pw/"
+            >Neodash Hall of Fame</a
+          >
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
